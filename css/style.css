@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.btn {
+  cursor: pointer;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-span {
+  color: #212121;
+}
+/*---------------HEADER--------------*/
+
+.header-nav-list-item-link {
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+.header-nav-list-item-link:focus,
+.header-nav-list-item-link:hover {
+  color: #2196f3;
+}
+.header-list-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-list-contact:hover,
+.header-list-contact:focus {
+  color: #2196f3;
+}
+
+/*-------------FOOTER------------*/
+.footer {
+  background: #2f303a;
+}
+.footer-address-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
