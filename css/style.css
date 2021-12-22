@@ -1,6 +1,12 @@
+:root {
+  --brand-color: #2196f3;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
 }
 .link {
   text-decoration: none;
@@ -17,8 +23,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .logo-span {
   color: #212121;
@@ -28,24 +33,24 @@ body {
 .header-nav-list-item-link {
   color: inherit;
   font-weight: 500;
-  font-size: 14px;
+
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .header-nav-list-item-link:focus,
 .header-nav-list-item-link:hover {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .header-list-contact {
   font-weight: 500;
-  font-size: 14px;
+
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: #757575;
 }
 .header-list-contact:hover,
 .header-list-contact:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 /*-------------FOOTER------------*/
@@ -53,19 +58,15 @@ body {
   background: #2f303a;
 }
 .footer-address-link {
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
-  font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer-address-contact {
   font-family: Roboto;
   font-style: normal;
-  font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /*---------------INDEX.HTML-----*/
@@ -84,7 +85,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  background: #2196f3;
+  background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: bold;
@@ -96,103 +97,96 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-.hero-btn:hover,.hero-btn:focus{
-  background: #188CE8;
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #188ce8;
 }
 
 /*---------------benefits-----*/
 .benefits-title {
   display: none;
 }
-.benefits-list-title{
-  font-size: 14px;
-  line-height: calc(16/14)
-  letter-spacing: 0.03em;
+.benefits-list-title {
+  line-height: calc(16 / 14);
   text-transform: uppercase;
 }
-.benefits-list-post-title{
-  font-size: 14px;
-  line-height: calc(24/14);
-  letter-spacing: 0.03em;
+.benefits-list-post-title {
+  line-height: calc(24 / 14);
 }
 
 /*---------------about-----*/
-.about-title{
+.about-title {
   font-size: 36px;
-  line-height: calc(42/36);
+  line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /*---------------team-----*/
-.team{
-  background: #F5F4FA;
+.team {
+  background: #f5f4fa;
 }
-.team-title{
+.team-title {
   font-size: 36px;
-  line-height: calc(42/36);
+  line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 }
-.team-list-item{
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.team-list-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-list-title{
+.team-list-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19/16);
+  line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
 }
-.team-list-post-title{
+.team-list-post-title {
   font-size: 16px;
-  line-height: calc(19/16);
+  line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
 /*---------------PORTFOLIO.HTML-----*/
 
 /*---------------Hero-----*/
-.portfolio-title{
+.portfolio-title {
   display: none;
 }
-.portfolio-search-btn{
-  background: #F5F4FA;
+.portfolio-search-btn {
+  background: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26/16);
+  line-height: calc(26 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
 }
-.portfolio-search-btn:hover,.portfolio-search-btn:focus{
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.portfolio-search-btn:hover,
+.portfolio-search-btn:focus {
+  background: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26/16);
+  line-height: calc(26 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.portfolio-product-item{
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+.portfolio-product-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.portfolio-product-title{
+.portfolio-product-title {
   font-size: 18px;
-  line-height: calc(36/18);
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
-.portfolio-product-post-title{
+.portfolio-product-post-title {
   font-size: 16px;
-  line-height: calc(30/16);
-  letter-spacing: 0.03em;
+  line-height: calc(30 / 16);
   color: #757575;
 }
