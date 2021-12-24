@@ -1,9 +1,12 @@
 :root {
   --brand-color: #2196f3;
+  --first-color: #ffffff;
+  --second-color: #757575;
+  --third-color: #212121;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--third-color);
   font-size: 14px;
   font-weight: normal;
   letter-spacing: 0.03em;
@@ -27,7 +30,7 @@ body {
 }
 /*---------------HEADER--------------*/
 .nav-span {
-  color: #212121;
+  color: var(--third-color);
 }
 .nav-link {
   color: inherit;
@@ -44,7 +47,7 @@ body {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--second-color);
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -56,13 +59,13 @@ body {
   background: #2f303a;
 }
 .footer-span {
-  color: #ffffff;
+  color: var(--first-color);
 }
 .footer-link {
   font-family: inherit;
   font-style: normal;
   line-height: calc(24 / 14);
-  color: #ffffff;
+  color: var(--first-color);
 }
 .footer-contact {
   font-family: Roboto;
@@ -83,7 +86,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--first-color);
 }
 .hero-btn {
   background: var(--brand-color);
@@ -96,7 +99,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--first-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -133,7 +136,7 @@ body {
   text-align: center;
 }
 .team-item {
-  background: #ffffff;
+  background: var(--first-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -148,7 +151,7 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  color: #757575;
+  color: var(--second-color);
 }
 
 /*---------------PORTFOLIO.HTML-----*/
@@ -175,10 +178,10 @@ body {
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
-  color: #ffffff;
+  color: var(--first-color);
 }
 .product-item {
-  background: #ffffff;
+  background: var(--first-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
@@ -190,5 +193,5 @@ body {
 .product-post-title {
   font-size: 16px;
   line-height: calc(30 / 16);
-  color: #757575;
+  color: var(--second-color);
 }
